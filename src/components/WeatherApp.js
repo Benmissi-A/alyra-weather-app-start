@@ -45,7 +45,7 @@ const WeatherApp = ({city}) => {
           <Description description={description} />
           <Temperature mainTemp={conditions.mainTemp} feelsLike={conditions.feelsLike} />
           <Humidity humidity={conditions.humidity} />
-          <p>{apiCallCount}</p>
+          <p>Api calls: {apiCallCount}</p>
         </section>
       )}
     </>
